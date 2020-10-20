@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rostik"
+    }
+  },
+  "defaultProject": "rostik",
+  "cli": {
+    "analytics": false
+  }
 }
