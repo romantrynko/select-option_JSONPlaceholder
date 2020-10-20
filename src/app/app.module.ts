@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './components/app/app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 
 
@@ -13,7 +14,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppComponent
   ],
   imports: [
-  BrowserModule,
+    CommonModule,
+    BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
